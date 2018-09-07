@@ -16,13 +16,13 @@ function isPrime(num) {
       break;
     case 5: return true
       break;
+    case 7: return true
+      break;
+    
   }
   
   
-  for(var i = 2; i <= 5; i++ ){
-    
-    if(i == 4)
-      continue;
+  for(var i = 2; i <= 9; i++ ){
     
     if(((Math.floor(num/i)) * i) == num){
       
