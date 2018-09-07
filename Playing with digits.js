@@ -13,6 +13,12 @@ function digPow(n, p){
   
   k = sum / n;
   
-  return (Math.floor(k) === 0)? -1 : k;
+  if(Math.floor(k) === k){
+    
+    return k;
+  }else{
+    
+    return -1;
+  }
   
 }
